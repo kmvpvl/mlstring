@@ -13,10 +13,16 @@ npm install --save mlstring
 
 # How to use
 ## Creation MLString object
-```js
+```ts
+// importing module
+import MLString from 'mlstring';
+
+// u can use default language as u want. English is default in fragment below
+// 
 const strEst = new MLString({
         default: "estimated", 
         values: new Map([
+            ["en-US", "expected"],
             ["de", "vermutet"],
             ["fr", "censé"],
             ["es", "supuesto"],
@@ -26,7 +32,7 @@ const strEst = new MLString({
 ```
 ## Use with default language in browser
 ```js
-console.log(strEst); // anywhere default cast to string
+console.log(String(strEst)); // anywhere default casting to string
 ```
 or
 ```js
