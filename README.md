@@ -29,6 +29,8 @@ const strEst = new MLString({
             ["uk", "очікуваний"],
             ["ru", "ожидаемый"]])
     });
+const strEstOneLang = new MLString("estimated");
+
 ```
 ## Use with default language in browser
 ```js

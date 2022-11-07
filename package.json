@@ -1,6 +1,6 @@
 {
   "name": "mlstring",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Multi-language string impl",
   "main": "mlstring.ts",
   "scripts": {
