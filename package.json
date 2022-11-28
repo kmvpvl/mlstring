@@ -1,8 +1,8 @@
 {
   "name": "mlstring",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Multi-language string impl",
-  "main": "lib/mlstring.ts",
+  "main": "lib/mlstring.js",
   "types": "lib/mlstring.d.ts",
 "scripts": {
    "test": "jest",
